@@ -10,7 +10,7 @@ Reads `stdin` and formats it:
 echo "Message" | logm
 ```
 
-![](1.png)
+![](./images/1.png)
 
 ## Log levels
 
@@ -32,7 +32,7 @@ echo "Message" | logm err
 echo "Message" | logm fatal
 ```
 
-![](2.png)
+![](./images/2.png)
 
 ## Time
 
@@ -49,7 +49,7 @@ echo "Message" | logm warn '%Y-%m-%d %H:%M:%S %z'
 echo "Message" | logm err $(date +%s)
 ```
 
-![](3.png)
+![](./images/3.png)
 
 ### Custom
 
@@ -145,7 +145,7 @@ All HEX codes are supported (e.g., `#FFFFFF` or even without `#`: `FFFFFF`) as w
 - "bright cyan"
 - "bright white"
 
-![](4.png)
+![](./images/4.png)
 
 # Features
 
@@ -155,4 +155,4 @@ There is support for multi-line input:
 echo "Message1\nMessage2\nMessage3" | logm
 ```
 
-![](5.png)
+![](./images/5.png)

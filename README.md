@@ -1,4 +1,4 @@
-[![release](https://img.shields.io/badge/v0.0.1-a6e3a1?style=for-the-badge&labelColor=1e1e2e&logoColor=a6e3a1&label=release)]()
+[![release](https://img.shields.io/badge/v0.0.2-a6e3a1?style=for-the-badge&labelColor=1e1e2e&logoColor=a6e3a1&label=release)](https://github.com/AndyLocks/logm/releases/tag/logm-v0.0.2)
 
 A utility for formatting logs for UNIX-like systems.
 

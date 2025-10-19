@@ -27,6 +27,14 @@ fn main() {
     let mut buffer = String::new();
     io::stdin().read_to_string(&mut buffer).unwrap();
 
+    if atty::isnt(atty::Stream::Stdout) {
+        for s in buffer.trim().split("\n") {
+            println!("{} {} {}", args.time.unwrap_or_default(), args.level.unwrap_or_default(), s);
+
+            return;
+        }
+    }
+
     let time = ColoredString::from(args.time.unwrap_or_default());
     let level = ColoredString::from(args.level.unwrap_or_default());
 
